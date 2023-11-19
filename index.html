@@ -1,50 +1,62 @@
-<!-- <%- include ("../partials/header") %> -->
-<style>
-	body{
-		 background:background-color: #f8ceec;
-background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
-	}
-                    #btn{
-                margin-bottom:20px;
-                border-radius: 12px;
-                background:#ff5722;
-            }
-                #link{
-                color:#f3e5f5;
-            }
-                #timer{
+<!DOCTYPE html>
+<html>
+    <head>
+		<style>
+			#timer{
 				margin-top:40px;
-                margin-left: -1000px;
 				z-index: 1;
                 position: relative;
                 text-align: center;
 			}
-</style>
-<head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+			#btn{
+		      margin-bottom:20px;
+		      border-radius: 12px;
+		      background:#ff5722;
+           }
+		    #link{
+		     color:#f3e5f5;
+	       }
+			#h1{
+				font-family: 'Audiowide', cursive;
+			}
+	   
+		</style>
+		
+        <title>V A N S H U</title>
+        
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         
 		<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="../public/stylesheets/landing.css">
         
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript" async></script>
-</head>
+   
+	</head>
+    
+    <body>
 
-<div class="container">
-     <header class="jumbotron">
-         <div class="container">
-             <h1>Welcome To Vanshu's World!</h1>
-             <p>View the hand-picked details for my Bestie</p>
-			 <br>
-             <div id="timer">
-             <button id="btn" type="button" class="btn btn-light"><a id="link" href="../views/guide.html">Guide</a></button>
-             </div>
-             <div id="timer">
-                <button id="btn" type="button" class="btn btn-light" style="margin-left:40px ;"><a id="link" href="../greetings.html">Greeting Cards</a></button>
-            </div>
-            <div id="timer">
-                <button id="btn" type="button" class="btn btn-light"><a id="link" href="../blogs.html">Blogs</a></button>
-            </div>
-            <div id="timer">
-                <button id="btn" type="button" class="btn btn-light"><a id="link" href="../closures.html">Closures</a></button>
-            </div>
-         </div>
-     </header>
+    
+
+    <div id="landing-header">
+        <h1 id="h1">V A N S H U</h1>
+        <a href="../views/campgrounds/index.html" class="btn btn-lg btn-danger">Open with Love</a>
+    </div>
+		
+    <div id="timer">
+	  <button id="btn" type="button" class="btn btn-light"><a id="link" href="../views/timer.html">Timer</a></button>
+	</div>
+		
+
+		 
+    <ul class="slideshow">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+	  <li></li>
+    </ul>
+
+	</body>
+</html>
